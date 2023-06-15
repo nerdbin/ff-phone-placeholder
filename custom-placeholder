@@ -1,0 +1,5 @@
+window.onload = function(){
+setTimeout(function(){
+document.querySelector("[name='phone']").setAttribute('placeholder', '')
+}, 100);
+}
